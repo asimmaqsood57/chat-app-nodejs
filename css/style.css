@@ -4,6 +4,15 @@ nav {
 .container {
   height: 20rem;
   width: 40rem;
-  margin: auto;
+  overflow-y: auto;
   border: 2px solid black;
+}
+
+#send-container {
+  width: 50rem;
+  display: flex;
+}
+
+#messageInp {
+  width: 37rem;
 }
